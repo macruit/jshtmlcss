@@ -12,8 +12,9 @@ li{
 body{
     font-family: 'Raleway', sans-serif;
 }
-.logo{
+.logo a{
     background: #000;
+    color: white;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -42,6 +43,23 @@ font-size: 15px;
 }
 .topnav .icon{
     display: none;
+}
+
+.mw-100{
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.advantages_container{
+    display: flex;
+    justify-content: center;
+}
+.advantages{
+    width: 70%;
+    display: flex;
+}
+.letter{
+    max-width: 30px;
 }
 
 @media screen and (max-width: 768px){
