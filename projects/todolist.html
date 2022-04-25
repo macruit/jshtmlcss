@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS HTML CSS ONLY</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="todo-style.css">
+    <link rel="stylesheet" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
 </head>
@@ -18,7 +19,7 @@
         </div>
         <nav>
             <div class="topnav" id="myTopnav">
-                <a href="index.html">Home</a>
+                <a href="../index.html">Home</a>
                 <a href="projects.html">Projects</a>
                 <a href="blog.html">Blog</a>
                 <a href="contact.html">Contact</a>
@@ -29,10 +30,25 @@
             </div>
         </nav>
     </header>
-  <main class="project">
-    <div class="gallery">
-        <div class="photo_itm"><a href="projects/todolist.html"><img src="img/projects/Todos_Logo.svg.png" alt=""></a></div>
-       
+  <main>
+    <div class="container">
+
+        <div class="todo_list">
+             <h1>ToDo list</h1>
+            <div class="create_new_todo">
+                <input type="text" class="message" placeholder="todo">
+                <button class="add">add</button>
+            </div>
+     
+            <div class="wrapper">
+                <ul class="todo"></ul>
+            </div>
+     
+        </div>
+     
+     </div>
+     
+     
   </main>
 
     <footer>
@@ -51,14 +67,12 @@
                     </a>
                 </div>
                 <div class="social">
-                 <a href="#"><img src="img/facebook.png" alt=""></a>
-                 <a href="#"><img src="img/google.png" alt=""></a>
-                 <a href="#"><img src="img/instagramm.webp" alt=""></a>
                 </div>
                 
                 <p>macruit 2022 </p>
         
     </footer>
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
+    <script src="todo.js"></script>
 </body>
 </html>
