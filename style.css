@@ -114,10 +114,7 @@ footer nav a:hover{
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
-.photo_itm{
-   
-    
-}
+
 .photo_itm img{
     width: 200px;
     box-sizing: border-box;
@@ -249,9 +246,7 @@ color: #4d4d4d;
     border-radius: 3px;
     margin-left: 5px;
 }
-.todo-out{
-    
-}
+
 .todo-out .li{
     background: #83dae9;
     list-style: none;
@@ -320,6 +315,14 @@ color: #4d4d4d;
     .blog_container{
         width: 28rem;
     }
+    .todo-container{
+        margin: auto;
+        max-width: 500px;
+        width:80%;
+        background:rgb(49, 200, 238);
+        border-radius: 10px;
+        padding: 25px;
+}
 }
 @media screen and (max-width: 420px){
    .advantages{
@@ -343,5 +346,13 @@ color: #4d4d4d;
 }
 .blog_container{
     width: 20rem;
+}
+.todo-container{
+    margin: auto;
+    max-width: 500px;
+    width:70%;
+    background:rgb(49, 200, 238);
+    border-radius: 10px;
+    padding: 25px;
 }
 }
